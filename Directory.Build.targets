@@ -6,7 +6,6 @@
     <DisableImplicitFSharpCoreReference>true</DisableImplicitFSharpCoreReference>
     <NoWarn>$(NoWarn);NU1504;NU1701</NoWarn>
     <TreatWarningsAsErrors Condition="'$(Configuration)' != 'Debug'">true</TreatWarningsAsErrors>
-  </PropertyGroup>
 
     <RepoRoot>$([System.IO.Path]::GetDirectoryName($([MSBuild]::GetPathOfFileAbove('.gitignore', '$(MSBuildThisFileDirectory)'))))</RepoRoot>
     <RepositoryUrl>https://github.com/Zaid-Ajaj/Snowflaqe</RepositoryUrl>
